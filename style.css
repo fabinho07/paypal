@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.logo h1 {
+    font-weight: 800;
+    border-bottom: 2px solid rgb(82, 81, 80);
+    padding-bottom: 5px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.container-produtos {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.meus-produtos {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.meus-produtos h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.news-produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-produto1 label {
+    font-size: 20px;
+    
+}
+
+/* container-dados */
+
+.container-dados {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: rgb(163, 219, 219);
+  padding: 50px;
+    
+}
+
+.title-dados h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.dados-cadastro {
+  width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.nome-form label {
+  font-size: 20px;
+}
+
+.nome-form input {
+    height: 30px;
+  }
+
+  .form-email label {
+    font-size: 20px;
+  }
+  
+  .form-email input {
+      height: 30px;
+    }
+
+    .end-form {
+        margin-top: 20px;
+    }
+
+    .end-form label {
+        font-size: 20px;
+      }
+      
+      .end-form input {
+          height: 30px;
+        }
+
+        .cidade-form {
+            margin-top: 20px;
+        }
+    
+        .cidade-form label {
+            font-size: 20px;
+          }
+          
+          .cidade-form input {
+              height: 30px;
+            }
+
+            .end-form input {
+                height: 30px;
+              }
+      
+              .estado-form {
+                  margin-top: 20px;
+              }
+          
+              .estado-form label {
+                  font-size: 20px;
+                }
+                
+                .estado-form input {
+                    height: 30px;
+                  }
+
+                  .dados-form {
+                    margin-top: 30px;
+                  }
+
+                  .dados-form fieldset {
+                    padding: 15px;
+                    font-size: 20px;
+
+                  }
+
+                  .text-area {
+                    margin-top: 30px;
+                    border: none;
+                  }
+
+                  .text-area textarea {
+                    width: 500px;
+                    height: 150px;
+                    border: none;
+                  }
+
+                  button {
+                    padding: 5px;
+                    width: 80px;
+                    border-radius: 5px;
+                    margin-top: 10px;
+                    border: none;
+                    border: 2px solid black;
+                    cursor: pointer;
+                    transition: all 0.7s;
+                    font-weight: 700;
+                  }
+
+                  button:hover {
+                    background-color: rgb(59, 58, 58);
+                    color: white;
+                    border: solid rgb(218, 214, 15) 2px;
+                  }
+
+
+
+
+
+/* responsivo */
+
+@media (max-width: 778px) {
+  .dados-cadastro {
+    display: flex;
+    flex-direction: column-reverse;
+  
+  }
+
+  .cidade-form {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 522px) {
+  .dados-form  {
+    width: 350px;
+  }
+
+  .dados-form label {
+    font-size: 15px;
+  }
+
+  .text-area textarea {
+    width: 250px;
+    height: 100px;
+  }
+}
+
+
+
+    
+
+
+   
+
+
+
